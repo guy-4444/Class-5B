@@ -23,6 +23,8 @@ public class SharedActivity extends AppCompatActivity {
         msp.putString("name", "dff");
         String result = msp.getString("name", "NA");
 
+
+
         animate();
 
 
@@ -37,7 +39,7 @@ public class SharedActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        // TODO: 2019-11-27 start timer 
+        // TODO: 2019-11-27 start timer
     }
 
     @Override
